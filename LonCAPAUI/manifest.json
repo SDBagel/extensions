@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "LonCAPA UI Enhancer",
+  "version": "0.1.11",
+  "description": "Better LonCAPA interfaces.",
+
+  "icons": {
+    "16": "icons/lc16x16.png",
+    "32": "icons/lc32x32.png",
+    "48": "icons/lc48x48.png",
+    "128": "icons/lc128x128.png"
+  },
+
+  "permissions": ["tabs", "http://*/*", "https://*/*", "file:///*"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.loncapa.net/*"],
+      "css": ["lc.css"],
+      "js": ["injector.js", "lc.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "lc.css", "lc.js"
+  ]
+}

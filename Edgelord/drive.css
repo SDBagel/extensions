@@ -1,0 +1,59 @@
+.a-qc-La, .sd-ph, .O5x1db, .a-D-B, .Hb-ja-hc, .Kk7lMc-Yb-Il-j {
+    background-color: var(--bg-primary) !important;
+    color: var(--text-primary) !important;
+}
+
+svg[fill="#000000"], .gb_5e {
+    fill: var(--text-primary) !important;
+}
+
+.h-sb-Ic {
+    background: none !important;
+}
+
+.KL4NAf, .a-Mg-V-T, .a-q-Xc-Ab, .a-s-T, .I2rTXb, 
+.h-sb-Ic, .h-R-w-d-ff, .gb_nf, .iZz7md, .M3pype {
+    color: var(--text-primary) !important;
+}
+
+.a-ub-Gd, .a-ub-oa, .gb_sa, .a-q-zb-j {
+    background-color: var(--bg-secondary) !important;
+    border: none !important;
+}
+
+.gb_i, .RTMQvb, .gb_3e, .gb_Af {
+    background-color: var(--bg-tertiary) !important;
+}
+
+.a-U-ye > .a-U-J {
+    background-color: var(--bg-primary) !important;
+}
+
+.a-U-ye > .a-U-J:hover {
+    background-color: var(--bg-secondary) !important;
+}
+
+.a-D-B-WErN3d-j, .gb_ia, .gb_Kg, .gb_i, .a-ub-Gd {
+    border: none !important;
+}
+
+.a-s-Ba-Ak, .aabwZd .N7iPof, .a-ub-ra-B>.h-ra-B,
+.ub-ml-Pr.USrqEe-ml-Pr-qc-j::before {
+    border-color: var(--bg-tertiary) !important;
+}
+
+::-webkit-input-placeholder { /* Webkit */
+   color: var(--text-primary) !important;
+}
+ 
+:-moz-placeholder { /* Firefox 18-4 */
+    color: var(--text-primary) !important;
+}
+ 
+::-moz-placeholder {  /* Firefox 19+ */
+    color: var(--text-primary) !important;
+}
+ 
+:-ms-input-placeholder {  /*  IE10+  */
+    color: var(--text-primary) !important;
+}

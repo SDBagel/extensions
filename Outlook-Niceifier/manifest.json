@@ -1,0 +1,29 @@
+{
+    "author": "SDBagel",
+    "content_scripts": [
+        {
+            "css": [
+                "styles.css"
+            ],
+            "matches": [
+                "https://outlook.live.com/*"
+            ]
+        }
+    ],
+    "description": "Removes ads from Outlook.",
+    "icons": {
+        "16": "icons/outlook-16.png",
+        "48": "icons/outlook-48.png",
+        "128": "icons/outlook-128.png"
+    },
+    "manifest_version": 2,
+    "name": "Outlook Nice-ifier",
+    "version": "1.4.4",
+    "web_accessible_resources": [
+        "yosemite.jpg"
+    ],
+    "-ms-preload": {
+        "backgroundScript": "backgroundScriptsAPIBridge.js",
+        "contentScript": "contentScriptsAPIBridge.js"
+    }
+}

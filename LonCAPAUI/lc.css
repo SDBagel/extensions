@@ -1,0 +1,103 @@
+body {
+  font-size: 1rem;
+  padding: 50px;
+}
+
+/* Hiding and centering nav menu stuff */
+#LC_nav_bar > span.LC_nobreak {
+  display: none;
+}
+.LC_primary_menu.LC_floatright.LC_right :not(:last-child) {
+  display: none;
+}
+#LC_secondary_menu {
+  display: none;
+}
+#LC_breadcrumbs {
+  background: none;
+  border: none;
+}
+.LC_breadcrumb_tools_outerlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.LC_breadcrumb_tools_tools li:not(:first-child) {
+  display: none;
+}
+
+/* Content Selection */ 
+#mainnav {
+  display: none;
+}
+.LC_Box {
+  margin: auto !important;
+  max-width: 900px;
+  width: 100%;
+}
+.LC_Box > div > img {
+  display: none;
+}
+.LC_Box > div > div > form[name="client"] {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100% !important;
+  padding: 0;
+}
+.LC_Box > div > div > form[name="client"] input {
+  max-width: 300px;
+  width: 100%;
+}
+#mainCourseDocuments form[name="clearbubbles"] {
+  display: none;
+}
+#mainCourseDocuments table:first-of-type {
+  display: none;
+}
+#mainCourseDocuments table {
+  width: 100%;
+}
+
+/* The actual problem interface */
+form {
+  display: block;
+  max-width: 500px;
+  margin: auto;
+  width: 100%;
+  padding: 30px;
+}
+
+form > img {
+  width: 100%;
+}
+
+form .nowrap {
+  white-space: pre-wrap;
+}
+
+input[type="text"] {
+  margin: 10px 0;
+  width: calc(100% - 20px);
+  padding: 5px 10px;
+}
+
+input[type="submit"] {
+  border-radius: 2px;
+  padding: 5px 10px;
+}
+
+table {
+  margin-bottom: 20px;
+}
+
+.LC_feedback_link {
+  display: none;
+}

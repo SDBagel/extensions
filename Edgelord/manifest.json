@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+
+  "name": "Edgelord",
+  "version": "0.11.21",
+  "description": "Dark mode extensions for Edge/Chromium.",
+
+  "icons": {
+    "16": "icons/edgelord16x16.png",
+    "32": "icons/edgelord32x32.png",
+    "48": "icons/edgelord48x48.png",
+    "128": "icons/edgelord128x128.png"
+  },
+
+  "permissions": ["tabs", "http://*/*", "https://*/*", "file:///*/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/*"],
+      "css": ["colors.css", "docs.css"],
+      "js": ["injector.js", "docs.js"]
+    },
+    {
+      "matches": ["https://classroom.google.com/*"],
+      "css": ["colors.css", "classroom.css"],
+      "js": ["injector.js", "classroom.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "colors.css",
+    "docs.css", 
+    "classroom.css"
+  ]
+}

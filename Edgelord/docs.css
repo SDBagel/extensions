@@ -1,0 +1,78 @@
+#docs-chrome, .docs-titlebar-buttons, body {
+  background: var(--bg-tertiary) !important;
+}
+
+.docs-branding-icon-img {
+  filter: grayscale(0.5);
+}
+
+.docs-title-input {
+  background: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+}
+
+.docs-title-input-label-inner {
+  color: var(--text-primary) !important;
+}
+
+.docs-titlebar-button {
+  background: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+}
+
+.goog-control-open, .goog-control-hover {
+  background: var(--bg-secondary) !important;
+}
+
+.goog-menu {
+  background: var(--bg-secondary) !important;
+}
+
+.goog-menuitem {
+  color: var(--text-primary) !important;
+}
+
+#docs-editor {
+  background: var(--bg-primary) !important;
+}
+
+#docs-toolbar-wrapper {
+  background: var(--bg-tertiary) !important;
+  border: 0 !important;
+}
+
+.goog-toolbar-button {
+  background: var(--bg-tertiary) !important;
+  color: var(--text-primary) !important;
+}
+
+.goog-toolbar-menu-button, .goog-toolbar-combo-button {
+  background: var(--bg-tertiary) !important;
+  color: var(--text-primary) !important;
+}
+
+.goog-toolbar-combo-button-input {
+  color: var(--text-primary) !important;
+}
+
+.menu-button {
+  color: var(--text-primary) !important;
+}
+
+.docs-title-save-label-text {
+  color: var(--text-primary) !important;
+}
+
+.docs-ruler {
+  background: var(--bg-secondary) !important;
+  border: 0 !important;
+}
+
+.docs-ruler-background-inner {
+  background: var(--bg-tertiary) !important;
+}
+
+.docs-explore-widget {
+  background: var(--bg-secondary) !important;
+  border: 0 !important;
+}

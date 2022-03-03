@@ -1,0 +1,126 @@
+:root {
+  --transparent-color: #aaa7;
+  --button-color: #fffa;
+}
+
+/* Ad */
+._3_hHr3kfEhbNYRFM5YJxH9 {
+  display: none !important;
+}
+
+/* Ad */
+._2F6rWwLisyawGGg32JOcop {
+  display: none !important;
+}
+
+/* Ad */
+._3oKObV8zI7k4ePSXxNGo4I {
+  display: none !important;
+}
+
+._35Siy4jc5nypNNwlSnD8sV {
+  padding-top: 4px;
+}
+
+._3ym-7na7hZH8zXkGtWUlIh {
+  padding-top: 4px;
+}
+
+/* Focused, Other, & Filter Panel */
+.R13rCAdCs2xraNrPX7bVq {
+  padding-top: 2px !important;
+}
+
+._2KuwCPSNEpMwZAuW6zy9qU {
+  backdrop-filter: blur(2px);
+}
+
+/* Side panel, but not "New Message" */
+.HWDcgTrRzWs8-3feN1tMa {
+  background-color: var(--transparent-color) !important;
+}
+
+/* Side panel, but not "New Message" or Calendar, etc.*/
+._2uIW6I_1SKuzoss6jjAHdO {
+  background-color: transparent !important;
+}
+
+._5O8C24Sp1LA7K6YK0aCq2 {
+  padding-top: 0 !important;
+}
+
+/* Individual button (Inbox, Junk Email, etc) */
+._5O8C24Sp1LA7K6YK0aCq2 > div {
+  background-color: var(--button-color) !important;
+  border-bottom: 1px solid #ccc;
+}
+
+/* New Message */
+._1waWmu4XtQsneHiFwpHx7b {
+  background-color: var(--transparent-color) !important;
+}
+
+/* Bits inside New Message */
+.qtRcagoPZ5dw3xsr114ze {
+  background-color: var(--button-color) !important;
+}
+
+/* Bits inside New Message */
+._3gdNmT4jTLXmeDgn968BfI {
+  background-color: var(--button-color) !important;
+}
+
+/* Mail, Calendar, People, and More */
+._36b_ljU_eQu9mGocqbJRt_ {
+  background-color: var(--button-color) !important;
+}
+
+._20tViXCC2EPsT866GLff18 {
+  background-color: #ccca;
+  border-radius: 1rem !important;
+  margin: auto !important;
+  text-align: center;
+  height: 20rem !important;
+  width: 20rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+._2TWadMHaFnJHZUSbUvTWwD {
+  background-color: #ccca;
+  border-radius: 1rem !important;
+  margin: auto !important;
+  text-align: center;
+  height: 25rem !important;
+  width: 20rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+._3KAPMPOz8KsW24ooeUflK2 {
+  background-image: url(getExtensionProtocol()+"yosemite.jpg");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 150rem;
+}
+
+._3Kc62YAN4SIQs0WxOoHE_q {
+  background-image: url(getExtensionProtocol()+"yosemite.jpg");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 150rem;
+}
+
+._3Ad19uWCrJfZmaKfs-hR2p {
+  background-image: url(getExtensionProtocol()+"yosemite.jpg");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 150rem;
+  position: relative;
+}

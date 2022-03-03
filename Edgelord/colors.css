@@ -1,0 +1,7 @@
+:root {
+    --bg-primary: rgb(23, 23, 23);
+    --bg-secondary: rgb(36, 36, 36);
+    --bg-tertiary: rgb(46, 46, 46);
+
+    --text-primary: rgb(227, 227, 227);
+}
